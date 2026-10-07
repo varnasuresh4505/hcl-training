@@ -1,20 +1,62 @@
-College Timetable & Attendance System
+# College Timetable & Attendance System
 
-The College Timetable & Attendance System is a web-based application designed to manage college timetables and student attendance efficiently.The system helps faculty manage class schedules and attendance records, while allowing students to view their timetable and attendance information.
+## Project Overview
 
-Objectives
+The College Timetable & Attendance System is a Java-based project designed to manage college timetable and student attendance information.
 
-1. Manage college class timetables.
-2. Record and manage student attendance.
-3. Allow students to view their timetable.
-4. Allow students to view their attendance percentage.
-5. Reduce manual work in timetable and attendance management.
-6. Provide an organized and easy-to-use system.
+## Objectives
 
-Planned Technologies
+* Manage subjects, sections and classrooms.
+* Create and manage class timetables.
+* Detect timetable clashes.
+* Record and manage student attendance.
+* Calculate attendance percentages.
+* Identify students with low attendance.
+* Generate attendance reports.
+* Manage substitute faculty information.
+
+## Technologies Used
 
 * Java
-* Spring Boot
-* MySQL
-* JavaScript / React.js
-* Git & GitHub
+* Git
+* GitHub
+
+## Project Structure
+
+college-timetable-attendance-system/
+├── .gitignore
+├── README.md
+└── src/
+    ├── Constants.java
+    └── WeeklyData.java
+
+## Current Implementation
+
+The current implementation demonstrates Java fundamentals including:
+
+* Variables
+* Constants
+* Arrays
+* Operators
+* Type casting
+* Weekly sample data
+
+## How to Run
+
+Compile the Java files:
+
+```bash
+javac src/Constants.java
+javac src/WeeklyData.java
+```
+
+Run the programs:
+
+```bash
+java -cp src Constants
+java -cp src WeeklyData
+```
+
+## Git
+
+Git is used for version control. The `.gitignore` file prevents Java compiled files, build folders and IDE-specific files from being tracked.
