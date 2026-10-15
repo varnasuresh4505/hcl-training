@@ -1,15 +1,11 @@
-# Java compiled files
 *.class
 
-# Build folders
 out/
 bin/
 target/
 
-# IDE settings
 .vscode/
 .idea/
 
-# Operating system files
 .DS_Store
 Thumbs.db
